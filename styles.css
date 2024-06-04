@@ -1,1 +1,125 @@
+.Aboutmeh {  background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;}
+.Aboutmeimg { display: flex;
+        justify-content: center;}
+ .navbar { font-family: Georgia, 'Times New Roman', Times, serif;
+            display: flex;
+            justify-content: space-around;
+            }
+ .navbar a { color: #4CAF50 ;}
+  
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.interest {width: 40%;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.interest h2 {
+    color: #4CAF50;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 5%;
+}  
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;   }  
+    .project {
+        background-color: white;
+        margin-bottom: 20px;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .project h2 {
+        color: #4CAF50;
+    }
+    
+    .project a {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 10px 15px;
+        background-color: #4CAF50;
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+    }
+    
+    .project a:hover {
+        background-color: #45a049;
+    }               
+    .homep {background-color: white;
+        margin-bottom: 20px;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);}
+        .Tech { display:flex;
+        justify-content: space-between;}
+        .Gaming {display: flex;
+        justify-content: space-between;}
+        .DIY{ display: flex;
+            justify-content: space-between; }
+        .Foster{display: flex;
+            justify-content: space-between;}
+        .outdoor{display: flex;
+            justify-content: space-between;}
+        .petcare{display: flex;
+            justify-content: space-between;}
+            .interestimg{width: 40%;
+                ;
+            margin-right: 5%;}
+             @media (max-width: 767px) { 
+                .interestimg{ max-height: 200px; width: 95%;}
+                .interest{width: 90%;}
+                .Tech{ flex-direction: column;}
+                .Gaming{ flex-direction: column}
+                .DIY{ flex-direction: column}
+                .Foster{ flex-direction: column}
+                .outdoor{ flex-direction: column}
+                .interesting{ flex-direction: column}
+                .petcare{ flex-direction: column}
+            }
+ 
+        
+        
 
